@@ -4,7 +4,7 @@ Unstoppable Search
 Search for any information a unstoppable domain may have.
 
 ## DEMO
-Available here https://pure-genius-ud.vercel.app/
+Available here https://ud-hackathon-reso.vercel.app/
 
 ## Video Demo
 https://vimeo.com/711248256
