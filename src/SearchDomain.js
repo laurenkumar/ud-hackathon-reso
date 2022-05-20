@@ -4,7 +4,7 @@ import axios from 'axios';
 
 function SearchDomain() {
   const API_URL = 'https://unstoppabledomains.g.alchemy.com/domains/';
-  const API_KEY = 'd42_CcVtJRXYLNxDwXgJALjHTa2jzQjP';
+  const API_KEY = '';
   const [stats, setStats] = useState(null);
 
   function processLookup(e) {
