@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 function SearchDomain() {
-  const API_URL = 'https://unstoppabledomains.g.alchemy.com/domains/';
-  const API_KEY = '';
+  const API_URL = 'https://resolve.unstoppabledomains.com/domains/';
+  const API_KEY = process.env.REACT_APP_API_KEY;
   const [stats, setStats] = useState(null);
 
   function processLookup(e) {
